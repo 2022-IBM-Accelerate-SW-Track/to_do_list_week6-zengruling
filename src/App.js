@@ -6,7 +6,7 @@ import NavbarComp from "./component/navigation/NavbarComp";
 import * as api from './services/api';
 
 function App() {
-    const [authenticated, setAuthenticated] = useState();
+    const [authenticated, setAuthenticated] = useState(false);
     const [username, setUsername] = useState();
     const [password, setPassword] = useState();
 
